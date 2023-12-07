@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela Mendelejewa</title>
+    <link rel="stylesheet" href="styleb.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <p>Ludzie na ukladzie okresowym</p>
+        <p>Stremetskyi Vladyslav i Nazar Savushyn</p>
+      </header>
+      <div class="ubercontainer">
+        <div class="container">
+          <h2>Tabela Mendelejewa</h2>
+
+          <table border="1">
+            <tr>
+              <th></th>
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+              <th>4</th>
+              <th>5</th>
+              <th>6</th>
+              <th>7</th>
+              <th>8</th>
+              <th>9</th>
+              <th>10</th>
+              <th>11</th>
+              <th>12</th>
+              <th>13</th>
+              <th>14</th>
+              <th>15</th>
+              <th>16</th>
+              <th>17</th>
+              <th>18</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>H</td>
+              <td colspan="16"></td>
+              <td>He</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Li</td>
+              <td>Be</td>
+              <td colspan="10"></td>
+              <td>B</td>
+              <td>C</td>
+              <td>N</td>
+              <td>O</td>
+              <td>F</td>
+              <td>Ne</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Na</td>
+              <td>Mg</td>
+              <td colspan="10"></td>
+              <td>Al</td>
+              <td>Si</td>
+              <td>P</td>
+              <td>S</td>
+              <td>Cl</td>
+              <td>Ar</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>K</td>
+              <td>Ca</td>
+              <td>Sc</td>
+              <td>Ti</td>
+              <td>V</td>
+              <td>Cr</td>
+              <td>Mn</td>
+              <td>Fe</td>
+              <td>Co</td>
+              <td>Ni</td>
+              <td>Cu</td>
+              <td>Zn</td>
+              <td>Ga</td>
+              <td>Ge</td>
+              <td>As</td>
+              <td>Se</td>
+              <td>Br</td>
+              <td>Kr</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Rb</td>
+              <td>Sr</td>
+              <td>Y</td>
+              <td>Zr</td>
+              <td>Nb</td>
+              <td>Mo</td>
+              <td>Tc</td>
+              <td>Ru</td>
+              <td>Rh</td>
+              <td>Pd</td>
+              <td>Ag</td>
+              <td>Cd</td>
+              <td>In</td>
+              <td>Sn</td>
+              <td>Sb</td>
+              <td>Te</td>
+              <td>I</td>
+              <td>Xe</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Cs</td>
+              <td>Ba</td>
+              <td></td>
+              <td>Hf</td>
+              <td>Ta</td>
+              <td>W</td>
+              <td>Re</td>
+              <td>Os</td>
+              <td>Ir</td>
+              <td>Pt</td>
+              <td>Au</td>
+              <td>Hg</td>
+              <td>Tl</td>
+              <td>Pb</td>
+              <td>Bi</td>
+              <td>Po</td>
+              <td>At</td>
+              <td>Rn</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Fr</td>
+              <td>Ra</td>
+              <td></td>
+              <td class="clickable" onclick="showInfo('Rf')">Rf</td>
+              <td>Db</td>
+              <td class="clickable" onclick="showInfo('Sg')">Sg</td>
+              <td>Bh</td>
+              <td>Hs</td>
+              <td>Mt</td>
+              <td>Ds</td>
+              <td>Rg</td>
+              <td>Cn</td>
+              <td>Nh</td>
+              <td>Fl</td>
+              <td>Mc</td>
+              <td>Lv</td>
+              <td class="clickable" onclick="showInfo('Ts')">Ts</td>
+              <td>Og</td>
+            </tr>
+
+            <tr>
+              <td colspan="19"></td>
+            </tr>
+
+            <tr>
+              <td>8</td>
+              <td colspan="3">Lantanowce</td>
+              <td>La</td>
+              <td>Ce</td>
+              <td>Pr</td>
+              <td>Nd</td>
+              <td>Pm</td>
+              <td>Sm</td>
+              <td>Eu</td>
+              <td>Gd</td>
+              <td>Tb</td>
+              <td>Dy</td>
+              <td>Ho</td>
+              <td>Er</td>
+              <td>Tm</td>
+              <td>Yb</td>
+              <td>Lu</td>
+            </tr>
+
+            <tr>
+              <td>9</td>
+              <td colspan="3">Aktynowce</td>
+              <td>Ac</td>
+              <td>Th</td>
+              <td>Pa</td>
+              <td>U</td>
+              <td>Np</td>
+              <td>Pu</td>
+              <td>Am</td>
+              <td class="clickable" onclick="showInfo('Cm')">Cm</td>
+              <td class="clickable" onclick="showInfo('Bk')">Bk</td>
+              <td>Cf</td>
+              <td class="clickable" onclick="showInfo('Es')">Es</td>
+              <td class="clickable" onclick="showInfo('Fm')">Fm</td>
+              <td class="clickable" onclick="showInfo('Md')">Md</td>
+              <td class="clickable" onclick="showInfo('No')">No</td>
+              <td class="clickable" onclick="showInfo('Lr')">Lr</td>
+            </tr>
+
+            <!-- Продолжайте добавлять строки и столбцы по необходимости -->
+          </table>
+        </div>
+      </div>
+      <div class="infopole">
+        <div class="infosection">
+          <div class="img">
+            <img src="rf.jpg" />
+          </div>
+          <p>
+            Rutherford (Rf, łac. rutherfordium), wcześniej unnilquadium (Unq) –
+            pierwiastek chemiczny z grupy metali przejściowych w układzie
+            okresowym, niewystępujący naturalnie na Ziemi. Nazwa pochodzi od
+            nazwiska fizyka Ernesta Rutherforda. Posiada on własności chemiczne
+            podobne do hafnu
+          </p>
+        </div>
+        <div class="infosection alik">
+          <p>
+            W lipcu 2009 w Zjednoczonym Instytucie Badań Jądrowych w Rosji
+            rozpoczęto eksperyment mający na celu uzyskanie pierwiastka 117
+            przez reakcję syntezy.Berkel użyty w tym eksperymencie został
+            wytworzony w amerykańskim Oak Ridge National Laboratory.
+          </p>
+          <div class="img">
+            <img src="ts.jpg" />
+          </div>
+        </div>
+        <div class="infosection">
+          <div class="img">
+            <img src="sg.jpg" />
+          </div>
+          <p>
+            Seaborg (Sg, łac. seaborgium), wcześniej unnilhexium (Unh) –
+            pierwiastek chemiczny z grupy metali przejściowych w układzie
+            okresowym. Nazwa pochodzi od nazwiska amerykańskiego chemika Glenna
+            T. Seaborga.
+          </p>
+        </div>
+        <div class="infosection alik">
+          <p>
+            Kiur (Cm, łac. curium) – pierwiastek chemiczny z grupy aktynowców w
+            układzie okresowym. Nazwa pochodzi od nazwiska Marii
+            Skłodowskiej-Curie i Pierre’a Curie. Pierwiastek został odkryty w
+            1944 roku przez Glenna Theodore'a Seaborga.
+          </p>
+          <div class="img">
+            <img src="cm.jpg" />
+          </div>
+        </div>
+        <div class="infosection">
+          <div class="img">
+            <img src="bk.jpg" />
+          </div>
+          <p>
+            Berkel (Bk, łac. berkelium) – sztuczny pierwiastek chemiczny,
+            aktynowiec. Nazwa pochodzi od nazwy miasta Berkeley w Kalifornii,
+            będącego siedzibą Uniwersytetu Kalifornijskiego oraz jednego z
+            najważniejszych ośrodków badań jądrowych na świecie. Odkryli go
+            tamże w 1949 r. Glenn T. Seaborg, Albert Ghiorso i Stanley G.
+            Thompson bombardując 241Am cząstkami α.
+          </p>
+        </div>
+        <div class="infosection alik">
+          <p>
+            Einstein (Es, łac. einsteinium) – pierwiastek chemiczny, aktynowiec.
+            Dawniej również w pisowni ajnsztajn. Nazwa pochodzi od nazwiska
+            fizyka Alberta Einsteina. Pierwiastek odkrył Albert Ghiorso w 1952
+            roku w pozostałościach po wybuchu termojądrowym na Oceanie
+            Spokojnym.
+          </p>
+          <div class="img">
+            <img src="es.jpg" />
+          </div>
+        </div>
+        <div class="infosection">
+          <div class="img">
+            <img src="fm.jpg" />
+          </div>
+          <p>
+            Ferm został odkryty w 1953 roku przez zespół amerykańskich naukowców
+            z ANL, LRL i LASL, pod przewodnictwem Seaborga. Pierwiastek
+            wyodrębniono z próbek koralowca z atolu Eniwetok, na Oceanie
+            Spokojnym, gdzie w 1952 dokonano wybuchu termojądrowym.
+          </p>
+        </div>
+        <div class="infosection alik">
+          <p>
+            Mendelew (Md, łac. mendelevium) – pierwiastek chemiczny z grupy
+            aktynowców w układzie okresowym. Nazwa pochodzi od nazwiska chemika
+            Dmitrija Mendelejewa.Pierwiastek otrzymano po raz pierwszy w 1955 r.
+            pod kierunkiem Alberta Ghiorso z Berkeley w Kalifornii, USA
+            bombardując 253Es cząstkami α.
+          </p>
+          <div class="img">
+            <img src="md.jpg" />
+          </div>
+        </div>
+        <div class="infosection">
+          <div class="img">
+            <img src="no.jpg" />
+          </div>
+          <p>
+            Nobel (No, łac. nobelium) – pierwiastek chemiczny, aktynowiec. Nazwa
+            pochodzi od nazwiska chemika Alfreda Nobla. Pierwszy raport z
+            syntezy tego pierwiastka, który nie budzi żadnych kontrowersji,
+            pochodzi z 1966 roku i opisuje syntezę wykonaną w Zjednoczonym
+            Instytucie Badań Jądrowych w Dubnej.
+          </p>
+        </div>
+        <div class="infosection alik">
+          <p>
+            Lorens (Lr, łac. lawrencium), dawniej oznaczany także Lw –
+            syntetyczny pierwiastek chemiczny, nieposiadający stabilnych
+            izotopów i niewystępujący w przyrodzie. Nazwa pochodzi od nazwiska
+            fizyka Ernesta O. Lawrence’a.
+          </p>
+          <div class="img">
+            <img src="lr.jpg" />
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>Źródła</p>
+        <a
+          class="info"
+          href="https://pl.wikipedia.org/wiki/Rutherford_(pierwiastek)"
+          target="_blank"
+          >RF</a
+        >
+        <a
+          class="info"
+          href="https://pl.wikipedia.org/wiki/Seaborg"
+          target="_blank"
+          >SG</a
+        >
+        <a
+          class="info"
+          href="https://pl.wikipedia.org/wiki/Tenes"
+          target="_blank"
+          >TS</a
+        >
+        <a
+          class="info"
+          href="https://pl.wikipedia.org/wiki/Kiur_(pierwiastek)"
+          target="_blank"
+          >CM</a
+        >
+        <a
+          class="info"
+          href="https://pl.wikipedia.org/wiki/Berkel"
+          target="_blank"
+          >BK</a
+        >
+        <a
+          class="info"
+          href="https://pl.wikipedia.org/wiki/Einstein_(pierwiastek)"
+          target="_blank"
+          >ES</a
+        >
+        <a
+          class="info"
+          href="https://pl.wikipedia.org/wiki/Ferm_(pierwiastek)"
+          target="_blank"
+          >FM</a
+        >
+        <a
+          class="info"
+          href="https://pl.wikipedia.org/wiki/Mendelew"
+          target="_blank"
+          >MD</a
+        >
+        <a
+          class="info"
+          href="https://pl.wikipedia.org/wiki/Nobel_(pierwiastek)"
+          target="_blank"
+          >NO</a
+        >
+        <a
+          class="info"
+          href="https://pl.wikipedia.org/wiki/Lorens"
+          target="_blank"
+          >LR</a
+        >
+      </footer>
+    </div>
+    <div class="info-box">
+      <h3>Imie i nazwisko</h3>
+      <p>Opis</p>
+    </div>
+
+    <script>
+      var animationInProgress = false; // Флаг, отслеживающий, идет ли в данный момент анимация
+
+      function showInfo(element) {
+        if (animationInProgress) {
+          return; // Если анимация уже в процессе, игнорируем новый клик
+        }
+
+        animationInProgress = true; // Устанавливаем флаг в true, так как анимация начинается
+
+        var infoBox = document.querySelector(".info-box");
+        var imgSrc = "";
+        var headingText = "";
+        var paragraphText = "";
+
+        // Определите, какой элемент был нажат
+        switch (element) {
+          case "Rf":
+            imgSrc = "rf.jpg";
+            headingText = "RF - Rutherfordium";
+            paragraphText =
+              " Odkryto przez radziecko-amerykański zespół naukowy. Rutherfordium zostało po raz pierwszy zsyntetyzowane w 1969 roku w ramach wspólnego projektu badawczego. Doświadczenia obejmowały użycie reakcji fuzji dwóch jąder - izotopów plutonu i berklu. ";
+            break;
+          case "Ts":
+            imgSrc = "ts.jpg";
+            headingText = "Ts - Tennessin";
+            paragraphText =
+              "Odkryto przez międzynarodowy zespół naukowy w Laboratorium Badań Jądrowych.  Odkrycie to było wynikiem reakcji dwóch jąder izotopu berkelu z jądrami wapnia.";
+            break;
+          case "Sg":
+            imgSrc = "sg.jpg";
+            headingText = "Sg - Seaborgium";
+            paragraphText =
+              "Odkryto przez wspólny zespół niemiecko-rosyjski. Seaborgium zostało zsyntetyzowane po raz pierwszy w 1974 . Proces zaangażował reakcję sześciokrotnego zderzenia jąder chromu z jądrami ołowiu.";
+            break;
+          case "Cm":
+            imgSrc = "cm.jpg";
+            headingText = "Cm - Curium";
+            paragraphText =
+              "Odkryto przez Marie i Pierre Curie. Otrzymywano je poprzez bombardowanie plutonu izotopem alfa.";
+            break;
+          case "Bk":
+            imgSrc = "bk.jpg";
+            headingText = "Bk - Berklium";
+            paragraphText =
+              " Odkryte przez amerykańskich naukowców Glenna T. Seaborga, Albertа Ghiorso i Ralphа A. Jamesa.  Otrzymywano je poprzez bombardowanie ameryku izotopem alfa.";
+            break;
+          case "Es":
+            imgSrc = "es.jpg";
+            headingText = "Es - Einsteinium";
+            paragraphText =
+              "Odkryto przez Alberta Einsteina. Otrzymywano je poprzez bombardowanie plutonu izotopem alfa.";
+            break;
+          case "Fm":
+            imgSrc = "fm.jpg";
+            headingText = "Fm - Fermium";
+            paragraphText =
+              "Odkryto przez Enrico Fermiego. Otrzymywano je poprzez bombardowanie uranu izotopem neutronów.";
+            break;
+          case "Md":
+            imgSrc = "md.jpg";
+            headingText = "Md - Mendelewium";
+            paragraphText =
+              "Odkryto przez chemika Dmitrija Mendelejewa, twórcy pierwotnej tabeli okresowej. Otrzymywano je poprzez bombardowanie kalifornu izotopem neutronów.";
+            break;
+          case "No":
+            imgSrc = "no.jpg";
+            headingText = "No - Nobelium";
+            paragraphText =
+              "Odkryto przez Alfreda Nobla.  Otrzymano je poprzez bombardowanie curium izotopem helu. ";
+            break;
+          case "Lr":
+            imgSrc = "lr.jpg";
+            headingText = "Lr - Lawrencium";
+            paragraphText =
+              "Odkryto przez Ernesta O. Lawrence.  Otrzymywano je poprzez bombardowanie kalifornu izotopem boru.";
+            break;
+          default:
+            // Если ни один из вышеуказанных случаев не сработал
+            imgSrc = "404.jpg";
+            headingText = "Error 404";
+            paragraphText = "Sprobuj co innego";
+            break;
+        }
+
+        // Заполняем блок информации
+        infoBox.innerHTML = "";
+
+        var img = document.createElement("img");
+        img.src = imgSrc;
+        img.alt = "Person Image";
+
+        infoBox.appendChild(img);
+
+        var heading = document.createElement("h3");
+        heading.textContent = headingText;
+
+        infoBox.appendChild(heading);
+
+        var paragraph = document.createElement("p");
+        paragraph.textContent = paragraphText;
+
+        infoBox.appendChild(paragraph);
+
+        // Показываем блок с анимацией
+        infoBox.classList.add("show");
+
+        // Устанавливаем обработчик события анимации
+        infoBox.addEventListener(
+          "animationend",
+          function () {
+            // По завершении анимации сбрасываем флаг и возвращаем блок в начальное состояние
+            animationInProgress = false;
+            infoBox.classList.remove("show");
+            infoBox.innerHTML = ""; // Очищаем содержимое
+          },
+          { once: true }
+        ); // { once: true } гарантирует, что обработчик события выполнится только один раз
+
+        document.addEventListener("DOMContentLoaded", function () {
+          var infoBox = document.querySelector(".info-box");
+
+          // Добавляем класс .show после 10 секунд
+          setTimeout(function () {
+            infoBox.classList.add("show");
+          }, 10000);
+        });
+      }
+    </script>
+  </body>
+</html>

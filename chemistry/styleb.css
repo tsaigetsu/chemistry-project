@@ -1,0 +1,214 @@
+/* styles.css */
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* position: relative; */
+    /* margin-bottom: 20px; */
+    /* margin-top: -100px; */
+    /* margin-left: 60px; */
+    flex-direction: column;
+}
+
+>.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.infopole {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 35px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.infopole p {
+    height: 100px;
+    width: 60%;
+}
+
+.infosection {
+
+    width: 50%;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+.infosection:nth-child(2n) {
+    align-self: flex-end;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 3px;
+    border-color: white;
+    border-style: groove;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header {
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.theme {
+    color: black
+}
+
+footer {
+    margin-top: -20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.info {
+    color: orange;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1000px;
+    height: 600px;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 12px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Optional: Add some additional styling for better appearance */
+/* Ваш существующий CSS ... */
+
+.clickable {
+    cursor: pointer;
+    color: orange;
+    font-weight: bold;
+}
+
+/* Ваш существующий CSS ... */
+
+.ubercontainer {
+    height: 90vh;
+}
+
+.container {
+    background-color: white;
+    margin-left: 440px;
+    padding: 20px;
+    width: 1020px;
+    height: 680px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes cmAnimation {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(300px);
+        opacity: 0;
+    }
+}
+
+/* Ваш существующий CSS ... */
+.info-box {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 6s ease, visibility 6s 6s;
+    /* Задержка между анимациями 1 секунда */
+    width: 300px;
+}
+
+/* Добавленные стили для анимации */
+.info-box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        visibility: visible;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.info-box.show {
+    animation: fadeIn 6s ease, fadeOut 2s ease 6s;
+    /* Задержка между анимациями 10 секунд */
+}
